@@ -34,7 +34,7 @@ function Login() {
 		<div className="bg-white h-screen flex items-center justify-center">
 			<div className="bg-white w-md rounded-lg shadow-2xl p-5">
 				<div className="text-center mb-4">
-					<h1 className="font-bold text-4xl text-sky-600 mb-2">EMS</h1>
+					<h1 className="font-bold text-4xl text-sky-600 mb-2">EMS 2</h1>
 					<p className="text-gray-500 text-lg ">Enterprise Management System</p>
 				</div>
 				<form onSubmit={handleSubmit}>
