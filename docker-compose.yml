@@ -39,6 +39,7 @@ services:
       - /app/node_modules
     environment:
       - NODE_ENV=development
+      - MONGODB_URI=${MONGODB_URI}
       - PORT=3002
   
   nginx:
